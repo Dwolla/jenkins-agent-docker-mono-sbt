@@ -19,7 +19,7 @@ jobs:
           DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
           DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
           TAG_NAME: MONO_TAG
-          BASE_TAG: 4.13.2-1-jdk11-a73d9b7-f8f446e
+          BASE_TAG: 4.13.2-1-jdk11-a73d9b7-3297bc5
           IMAGE_NAME: dwolla/jenkins-agent-mono-sbt
           PLATFORMS: linux/amd64
   build-complete:
